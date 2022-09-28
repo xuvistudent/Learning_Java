@@ -1,0 +1,11 @@
+
+public class ViDu {
+	public static void main(String[] args) {
+		// Kieu du lieu nguyen thuy
+		int[] mang1 = {1,2,3};
+		
+		// Copy mang
+		int[] mang1_a = mang1;
+		
+	}
+}

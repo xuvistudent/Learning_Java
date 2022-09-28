@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class ViDU {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String s;
+		System.out.println("Nhap vao chuoi: ");
+		s = sc.nextLine();
+		System.out.println("------");
+		//Ham lay do dai chuoi
+		System.out.println(s.length());
+		
+		//Ham lay ki tu tai vi tri i
+		System.out.println(s.charAt(0));
+		
+		//Ham getChars(vi tri bat dau, vi tri ket thuc
+		//mang luu du lieu, vi tri bat dau luu cua mang)
+		char[] arrayChar = new char[100];
+		s.getChars();
+	}
+}

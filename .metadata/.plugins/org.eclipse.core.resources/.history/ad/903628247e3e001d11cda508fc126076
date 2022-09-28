@@ -1,0 +1,7 @@
+package ViDu;
+
+public class Test {
+	public static void main(String[] args) {
+		SinhVien sv1 = new SinhVien(100, "titv", "Lop 1", 9);
+	}
+}

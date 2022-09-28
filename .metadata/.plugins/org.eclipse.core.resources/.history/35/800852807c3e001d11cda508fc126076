@@ -1,0 +1,17 @@
+package ViDu;
+
+public class SinhVien {
+	private int maSinhVien;
+	private String hoVaTen;
+	private String tenLop;
+	private double diemTB;
+	
+	public SinhVien(int maSinhVien, String hoVaTen, String tenLop, double diemTB) {
+		this.maSinhVien = maSinhVien;
+		this.hoVaTen = hoVaTen;
+		this.tenLop = tenLop;
+		this.diemTB = diemTB;
+	}
+	
+	
+}

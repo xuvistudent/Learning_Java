@@ -1,0 +1,8 @@
+package Test;
+
+import Code.Info;
+
+public class Test {
+	private Info inf;
+//	this.inf.a => khong truy cap duoc
+}

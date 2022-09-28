@@ -1,0 +1,10 @@
+
+public class ViDu {
+	public static void main(String[] args) {
+		String s1 = "Xin chao cac ban";
+		String s2 = "Xin chao";
+		
+		//Ham indexOf
+		System.out.println(s1.indexOf(s2));
+	}
+}

@@ -1,0 +1,10 @@
+package Code;
+
+public class ViDu {
+	private Info inf;
+	
+	public void method() {
+//		this.inf.a => khong truy xuat duoc
+		this.inf.b = 2;
+	}
+}

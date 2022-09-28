@@ -1,0 +1,11 @@
+package ViDu;
+
+public class Test {
+	public static void main(String[] args) {
+		SinhVien sv1 = new SinhVien(150, "titv1", "Lop 1", 9);
+		SinhVien sv2 = new SinhVien(100, "titv2", "Lop 2", 8);
+		SinhVien sv3 = new SinhVien(199, "titv3", "Lop 2", 8);
+		
+		System.out.println(sv1.compareTo(sv2));
+	}
+}

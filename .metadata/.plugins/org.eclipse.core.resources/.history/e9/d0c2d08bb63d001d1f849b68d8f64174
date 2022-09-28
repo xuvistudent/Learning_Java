@@ -1,0 +1,28 @@
+
+public class ViDu {
+	public static void main(String[] args) {
+		String s1 = "titv";
+		String s2 = ".vn";
+		String s3 = s1 + s2;
+		System.out.println(s3);
+		
+		
+		//Ham concat => noi chuoi
+		String s4 = s1.concat(s2);
+		System.out.println(s4);
+		
+		
+		//Ham replace => thay the 
+		String s5 = "tung.vn";
+		String s6 = s5.replaceAll(s5, "xuan viet");
+		System.out.println(s6);
+		
+		//trim() => xoa khoang trang du thua o 2 dau chuoi
+		String s7 = "   Hoang Xuan Viet   ";
+		System.out.println(s7.trim());
+		
+		//subString => cat chuoi con 
+		
+		
+	}
+}

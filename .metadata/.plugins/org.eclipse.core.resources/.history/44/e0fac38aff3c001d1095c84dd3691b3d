@@ -1,0 +1,11 @@
+
+public class ViDu {
+	public static void main(String[] args) {
+		String s1 = "TITV.vn";
+		String s2 = "titv.vn";
+		String s3 = "Titv.vn";
+		
+		//Ham equals => so sanh 2 chuoi giong nhau
+		
+	}
+}

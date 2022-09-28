@@ -1,0 +1,35 @@
+import java.util.Arrays;
+
+public class ViDu {
+	public static void main(String[] args) {
+		// Kieu du lieu nguyen thuy
+		int[] mang1 = {1,2,3};
+		
+		// Copy mang theo cach 1 => copy dia chi tham chieu
+		int[] mang1_a = mang1;
+		mang1_a[0]=100;
+		System.out.println(Arrays.toString(mang1));
+		System.out.println(Arrays.toString(mang1_a));
+		
+		// Copy mang theo cach 2 => copy noi dung
+		int[] mang1_b = mang1.clone();
+		mang1_b[0] = 50;
+		System.out.println(Arrays.toString(mang1));
+		System.out.println(Arrays.toString(mang1_b));
+		
+		// Copy mang theo cach 3 => copy noi dung
+		int[] mang1_c = new int[mang1.length];
+		System.arraycopy(mang1, 0, mang1_c, 0, mang1.length);
+		mang1_c[0] = 90;
+		System.out.println(Arrays.toString(mang1_c));
+		
+		// Kieu du lieu doi tuong
+		String[] mang_doi_tuong = {"titv",".vn"};
+		
+		String[] mang2 = mang_doi_tuong.clone();
+		mang2[1] = ".com";
+		System.out.println(Arrays.toString(mang_doi_tuong));
+		System.out.println(Arrays.toString(mang2));
+		
+	}
+}
